@@ -137,3 +137,4 @@ export const AddSkillModal: React.FC<Props> = ({ isOpen, onClose }) => {
     </div>
   );
 };
+

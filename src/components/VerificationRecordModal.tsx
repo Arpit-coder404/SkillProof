@@ -152,3 +152,4 @@ export const VerificationRecordModal: React.FC<Props> = ({ record, onClose }) =>
     </div>
   );
 };
+

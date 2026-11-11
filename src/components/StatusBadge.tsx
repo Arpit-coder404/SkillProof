@@ -101,3 +101,4 @@ export const ProficiencyMeter: React.FC<{ level: ProficiencyLevel; compact?: boo
     </div>
   );
 };
+

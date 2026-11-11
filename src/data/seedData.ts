@@ -1122,3 +1122,4 @@ export const INITIAL_AUDIT_LOGS: AuditLog[] = [
     details: 'Requested verification from Prof. David Chen for Study Room Booking Engine.',
   }
 ];
+

@@ -301,3 +301,4 @@ export const DiscoverStudentsPage: React.FC = () => {
     </div>
   );
 };
+

@@ -127,3 +127,4 @@ Follow these steps to experience the complete verification lifecycle:
 ## 📜 License
 
 Created for the SkillProof Academic Consortium. All rights reserved.
+
