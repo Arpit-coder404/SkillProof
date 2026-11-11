@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-paper: #F7F6F2;
+    --text-ink: #20231F;
+    --border-paper: #E5E4DE;
+    --forest: #234B3C;
+    --sage: #DCE5DC;
+    --terracotta: #D77A45;
+  }
+
+  body {
+    background-color: #F7F6F2;
+    color: #20231F;
+    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: 'Newsreader', 'DM Serif Display', Georgia, serif;
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F7F6F2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #DCE5DC;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #777B75;
+}
+
+/* Subtle print styles */
+@media print {
+  body {
+    background: #ffffff !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+}
+
+/* Stamp texture / editorial border effect */
+.border-dashed-subtle {
+  border-style: dashed;
+  border-color: #CAD7CA;
+}
